@@ -50,7 +50,7 @@ class MyDataset(data.Dataset):
         mc_files = glob.glob(join(data_dir, '*.npy'))
 ##        print(" am in the data loader cod....mc files are", mc_files)
 
-#### modified by siri ####################
+#### modified####################
 
 
         print("speakers are", speakers, "mc files", mc_files[0], "basename is", basename(mc_files[0])[:9]) # basename is wavenet_c
