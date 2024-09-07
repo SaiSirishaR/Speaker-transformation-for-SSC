@@ -83,8 +83,8 @@ if __name__ == '__main__':
 
 
     sample_rate_default = 16000
-    origin_wavpath_default = "/home1/srallaba/projects/siri_tts_extravangaza/StarGAN-Voice-Conversion_for_SSC/data/Wavenet_voices/wav24"
-    target_wavpath_default = "/home1/srallaba/projects/siri_tts_extravangaza/StarGAN-Voice-Conversion_for_SSC/data/Wavenet_voices/wav16"
+    origin_wavpath_default = "/path/to/folder/withwavefiles/"
+    target_wavpath_default = "/path/to/target/folder/"
     mc_dir_train_default = './data/mc/train'
     mc_dir_test_default = './data/mc/test'
 
